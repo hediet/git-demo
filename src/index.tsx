@@ -1,3 +1,4 @@
+// now in source folder
 import "reflect-metadata";
 import * as React from "react";
 import * as ReactDom from "react-dom";
