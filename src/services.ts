@@ -1,6 +1,6 @@
 // test
 import { injectable, Container } from "inversify";
-import { serviceId, inject, TypedId } from "./helper";
+import { serviceId, inject, TypedId } from "./helpe2r";
 import { Disposable, dispose } from "@hediet/std/disposable";
 import { EventEmitter } from "@hediet/std/events";
 // uiae
