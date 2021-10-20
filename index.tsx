@@ -15,7 +15,7 @@ import { observer } from "mobx-react";
 import { Disposable } from "@hediet/std/disposable";
 import "./services";
 
-// gui
+// gui2
 
 class Test<T> extends React.Component<{ foo: T, children: (item: T) => void }> {
 
