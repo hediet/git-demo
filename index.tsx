@@ -15,13 +15,13 @@ import { observer } from "mobx-react";
 import { Disposable } from "@hediet/std/disposable";
 import "./services";
 
-// gui2 123
+// gui
 
 class Test<T> extends React.Component<{ foo: T, children: (item: T) => void }> {
 
 }
 
-// TODO
+// TODO 456
 
 const x = (<Inject id={"test"}>
 	{Bar => Bar.Component}
