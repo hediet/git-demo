@@ -21,6 +21,7 @@ class Test<T> extends React.Component<{ foo: T, children: (item: T) => void }> {
 
 }
 
+// TODO
 
 const x = (<Inject id={"test"}>
 	{Bar => Bar.Component}
