@@ -15,16 +15,16 @@ import { observer } from "mobx-react";
 import { Disposable } from "@hediet/std/disposable";
 import "./services";
 
-// gui
+// guiLoram
 
-class Test<T> extends React.Component<{ foo: T, children: (item: T) => void }> {
+class Test<T> extends React.Component<{ bar: T, children: (item: T) => void }> {
 
 }
 
 // TODO 456
 
 const x = (<Inject id={"test"}>
-	{Bar => Bar.Component}
+	{bar => bar.Component}
 </Inject>);
 
 
