@@ -1,8 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: ""
-labels: []
-assignees: []
+title: "File a bug report"
 body:
   - type: markdown
     attributes:
@@ -28,9 +26,9 @@ body:
     attributes:
       label: Monaco Editor Playground Code
       description: Please provide the code to reproduce in the monaco editor playground
-   - type: textarea
-     id: actual-behavior
-     attributes:
+  - type: textarea
+    id: actual-behavior
+    attributes:
       label: Actual Behavior
       description: Please describe the actual behavior, as observed in the playground
       
