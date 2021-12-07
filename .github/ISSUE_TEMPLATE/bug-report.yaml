@@ -26,6 +26,7 @@ body:
     attributes:
       label: Monaco Editor Playground Code
       description: Please provide the code to reproduce in the [monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)
+      render: typescript
   - type: textarea
     id: actual-behavior
     attributes:
