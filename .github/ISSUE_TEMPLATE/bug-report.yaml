@@ -9,16 +9,16 @@ body:
   - type: checkboxes
     id: options
     attributes:
-      label: Can you reproduce the issue in [vscode.dev](https://vscode.dev) or in VS Code Desktop?
-      description: Can you reproduce the issue in [vscode.dev](https://vscode.dev) or in VS Code Desktop?
+      label: Can you reproduce the bug in vscode.dev or in VS Code Desktop?
+      description: Can you reproduce the bug in [vscode.dev](https://vscode.dev) or in VS Code Desktop?
       options:
         - label: Not reproducible on [vscode.dev](https://vscode.dev) or VS Code Desktop
           required: true
   - type: checkboxes
     id: options2
     attributes:
-      label: Can you reproduce the issue in [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)?
-      description: Can you reproduce the issue in [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)?
+      label: Can you reproduce the bug in the monaco editor playground?
+      description: Can you reproduce the bug in [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)?
       options:
         - label: Not reproducible on [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)
   - type: textarea
