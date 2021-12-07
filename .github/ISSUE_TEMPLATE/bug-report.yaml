@@ -1,62 +1,47 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+title: ""
+labels: []
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        To help us processing your bug report, please fill out this form!
+  - type: checkboxes
+    id: options
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+      label: Can you reproduce the issue in [vscode.dev](https://vscode.dev) or in VS Code Desktop?
+      description: Can you reproduce the issue in [vscode.dev](https://vscode.dev) or in VS Code Desktop?
+      options:
+        - label: Not reproducible on [vscode.dev](https://vscode.dev) or VS Code Desktop
+          required: true
+  - type: checkboxes
+    id: options2
+    attributes:
+      label: Can you reproduce the issue in [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)?
+      description: Can you reproduce the issue in [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)?
+      options:
+        - label: Not reproducible on [the monaco editor playground](https://microsoft.github.io/monaco-editor/playground.html)
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: Monaco Editor Playground Code
+      description: Please provide the code to reproduce in the monaco editor playground
+   - type: textarea
+     id: actual-behavior
+     attributes:
+      label: Actual Behavior
+      description: Please describe the actual behavior, as observed in the playground
+      
   - type: textarea
-    id: logs
+    id: expected-behavior
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Expected Behavior
+      description: Please describe the expected behavior
+
+  - type: textarea
+    id: additional-notes
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Additional Context
+      description: Please provide additional context
