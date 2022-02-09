@@ -3,6 +3,8 @@ import { serviceId, inject, TypedId } from "./helper";
 import { Disposable, dispose } from "@hediet/std/disposable";
 import { EventEmitter } from "@hediet/std/events";
 
+// Some change
+
 function getCachedSingletons(container: Container): unknown[] {
 	const c = container as any;
 	const result = new Array<unknown>();
