@@ -1,4 +1,4 @@
 {
-    "git.branchProtection": ['master'],
+    "git.branchProtection": ["master"],
     //"git.branchProtectionPrompt": "alwaysCommitToNewBranch"
 }
