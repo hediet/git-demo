@@ -15,13 +15,13 @@ import { observer } from "mobx-react";
 import { Disposable } from "@hediet/std/disposable";
 import "./services";
 
-// guiLoram
-
 class Test<T> extends React.Component<{ bar: T, children: (item: T) => void }> {
 
 }
 
 // TODO 456
+
+// Addition 1
 
 const x = (<Inject id={"test"}>
 	{bar => bar.Component}
@@ -118,7 +118,11 @@ const main = document.createElement("div");
 document.body.append(main);
 ReactDom.render(<Gui />, main);
 
+<<<<<<< HEAD
 
 
 
 
+=======
+// addition
+>>>>>>> 41dc5fcf88b8f83116b212664df967ec1bbbd437
