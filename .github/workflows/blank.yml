@@ -40,5 +40,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: file1.txt
-        path: output/foo.txt
+        path: file1.txt
   
