@@ -36,3 +36,9 @@ jobs:
         message: test
         # Github token of the repository (automatically created by Github)
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Archive code coverage results
+      uses: actions/upload-artifact@v3
+      with:
+        name: file1.txt
+        path: output/foo.txt
+  
