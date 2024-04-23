@@ -40,7 +40,7 @@ class UserComponentModel implements IModel {
 		private readonly props: { uppercase: boolean } //@inject(userServiceId) //private readonly userService: typeof userServiceId.T
 	) {
 		/*this.dispose.track(
-			startInterval(500, () => {
+			startInterval(100, () => {
 				this.counter++;
 			})
 		);*/
