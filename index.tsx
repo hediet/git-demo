@@ -39,11 +39,11 @@ class UserComponentModel implements IModel {
 		@injectProps()
 		private readonly props: { uppercase: boolean } //@inject(userServiceId) //private readonly userService: typeof userServiceId.T
 	) {
-		/*this.dispose.track(
+		this.dispose.track(
 			startInterval(500, () => {
 				this.counter++;
 			})
-		);*/
+		);
 	}
 
 	public readonly dispose = Disposable.fn();
