@@ -15,7 +15,7 @@ import { observer } from "mobx-react";
 import { Disposable } from "@hediet/std/disposable";
 import "./services";
 
-class Test<T> extends React.Component<{ bar: T, children: (item: T) => void }> {
+class TestMyPr<T> extends React.Component<{ bar: T, children: (item: T) => void }> {
 
 }
 
