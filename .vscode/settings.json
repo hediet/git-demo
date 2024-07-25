@@ -1,4 +1,10 @@
 {
     //"git.branchProtection": ["master"],
-    "git.branchProtectionPrompt": "alwaysCommitToNewBranch"
+    "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+    "githubPullRequests.queries": [
+		{
+			"label": "Merged",
+			"query": "is:closed is:merged author:${user}"
+		},
+	],
 }
