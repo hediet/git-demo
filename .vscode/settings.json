@@ -4,7 +4,7 @@
     "githubPullRequests.queries": [
 		{
 			"label": "Merged",
-			"query": "is:closed is:merged author:${user}"
-		},
+			"query": "repo:${owner}/${repository} is:closed is:merged author:${user}"
+		}
 	],
 }
