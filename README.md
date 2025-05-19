@@ -9,7 +9,7 @@ Git Demo
 [extension]
 [visualization]
 [visualization-playground]
-
+a
 [webview] ..> [extension]: "Uses RPC contracts, connects using websockets"
 [extension] ..> [webview]: "Loads into a Webview in VS Code"
 
@@ -23,3 +23,4 @@ Git Demo
 
 @enduml
 ```
+
